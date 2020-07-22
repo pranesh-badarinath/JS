@@ -1,0 +1,17 @@
+EEKLY CODE BATTLE - WEEK 7
+NAME : PRANESH B
+
+COMMUITY LINK : https://community.letsupgrade.in/user/pranesh_b
+
+EMAIL : praneshbadarinath@gmail.com
+
+LOGIC :
+
+step 1 : First we need to import time , By imorting this liberary, it allows to use time functions in our code.
+
+step 2 : we need take the input i,e till how much the timer needs to count.
+
+step 3 : creating a ranged loop that counts the sequence/ timer ticks.
+
+step 4 : once the timer ticks tends to zero ...we need to print the message "You were Deceived."
+
