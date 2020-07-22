@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>DAY 6</title>
+</head>
+<body>
+    <h1><mark>ASSIGNMENT 2 DAY 6</mark></h1>
+    <h1></h2><font color="blue">MULTIPLICATION TABLE</font></h1>
+    <ul id="multiplication"></ul>
+    <script>
+        var input= +prompt("enter a number");
+        console.log(`the number is ${input}`);
+        console.log(`multipliction table of ${input}`);
+        let arr=[];
+        num=1;
+        while(num<=10){
+           let ans = input * num;
+           let final=(console.log(`${input} x ${num} = ${ans}`))
+           arr.push(ans);
+           num++;
+        }
+        console.log(arr);
+        const list=document.getElementById('multiplication');
+
+        console.log(list);
+        let n=1;
+        for(let i=0;i<10;i++){
+            n+=i;
+            list.innerHTML += `<li>${input} x ${i+1} =${arr[i]}</li>`
+        }
+    </script>
+</body>
+</html>

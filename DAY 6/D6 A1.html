@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 6</title>
+</head>
+<body>
+    <H1><MARK>ASSIGNMENT 1 DAY 6</MARK></H1>
+    <H2>JS program that will itterate over an array of colours and change the Background of the  webpage.</H2>
+    <script>
+    var colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple'];
+var i = 0;
+setInterval(function () {
+   document.body.style.backgroundColor=colors[i];
+   
+   if (colors[i]=='purple') {
+       i= 0;
+   } else {
+       i++;
+   }
+},2000);
+    </script>
+    
+</body>
+</html>
