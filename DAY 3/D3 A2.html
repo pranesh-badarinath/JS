@@ -1,27 +1,38 @@
-<!-- Question 2:
-Write a program which will take OS name and version from the user separated by a space. Then
-log the OS name and version on the console.
-Input: "Android 9"
-Output: The OS name is Android and version is 9 -->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>ASSIGNMENT 2, Date: 16 July 2020</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3-assignment 3</title>
 </head>
-
-<body style="background-color: powderblue;">
-    <h2>ASSIGNMENT 2</h2>
-    <div class="container" style='max-width: 90%; margin: auto; background-color: goldenrod; font-family: Lucida Sans;'>
-        <h3>Press SHIFT + CTRL +J and navigate to console and then messages.</h3>
-        <p><b>Taking the input string as OS name and version separated by column from user and printing it like The OS name is 'Entered OS name' and version is 'Entered version number'</b></p>
-
-    </div>
-
-    <script src='scripts/two.js'>
+<body>
+    <h1>Write a program to take marks as input from the user and grade him accordingly using condition statement.</h1>
+    <script>
+        console.log("grading the students");
+    
+        let marks=Number(prompt("Enter the student marks"));
+        if(marks<40){
+            console.log(`Marks are ${marks} and grade is C`);
+        }
+        else if(marks>=40 && marks<50){
+            console.log(`Marks are ${marks} and grade is C+`);
+        }
+        else if(marks>=50 && marks<70){
+            console.log(`Marks are ${marks} and grade is B`);
+        }
+        else if(marks>=70 && marks<80){
+            console.log(`Marks are ${marks} and grade is B+`);
+        }
+        else if(marks>=80 && marks<90){
+        console.log(`Marks are ${marks} and grade is A`);
+        }
+        else if(marks>=90 && marks<=100){
+            console.log(`Marks are ${marks} and grade is A+`);
+        }
+        else{
+            console.log('Enter the correct marks');
+        }
     </script>
 
 </body>
-
 </html>
